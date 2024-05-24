@@ -8,7 +8,7 @@ function NavBar() {
 
   return (
     <div>
-      <nav className="bg-white drop-shadow-sm flex justify-between px-5 font-semibold py-4 top-0 sticky hide-scrollbar">
+      <nav className="bg-white drop-shadow-sm flex justify-between px-5 font-semibold py-4 top-0 sticky ">
         <div className="flex gap-1">
           <i className="bx bx-md bxs-color text-blue-500"></i>
           <h1 className="text-blue-500 text-2xl text-pretty">Organizely</h1>
@@ -47,12 +47,12 @@ function NavBar() {
             <Transition
               as={Fragment}
               show={isOpen}
-              enter="transition ease-out duration-300"
-              enterFrom="opacity-0 translate-y-1"
+              enter="transition ease-out duration-300 transform"
+              enterFrom="opacity-0 translate-y-2"
               enterTo="opacity-100 translate-y-0"
-              leave="transition ease-in duration-150"
+              leave="transition ease-in duration-200 transform"
               leaveFrom="opacity-100 translate-y-0"
-              leaveTo="opacity-0 translate-y-1"
+              leaveTo="opacity-0 translate-y-2"
             >
               <Popover.Panel className="absolute left-0 top-0">
                 <div className="w-[250px] h-screen bg-white font-normal flex flex-col cursor-pointer">
