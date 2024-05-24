@@ -26,9 +26,3 @@ a:active,
 a:focus {
   color: #312e81;
 }
-
-.link:hover,
-.link:active,
-.link:focus {
-  color: #312e81;
-}

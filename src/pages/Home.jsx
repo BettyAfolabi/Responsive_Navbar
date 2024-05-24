@@ -27,7 +27,7 @@ function Home() {
             py: "10px",
             px: "9px",
             mb: "20px",
-            fontSize: "20px",
+            fontSize: "18px",
             borderRadius: "30px",
             textAlign: "center",
             "@media (max-width: 768px)": {
@@ -42,30 +42,30 @@ function Home() {
           Introducing an A.I.-Powered Marketplace for Today’s Workforce.
         </Typography>
         <Typography
-          variant="h1"
           sx={{
-            fontWeight: "bold",
-            fontSize: "40px",
+            fontWeight: "600",
+            fontSize: "30px",
             textAlign: "center",
             "@media (min-width: 768px)": {
               py: "16px",
               mt: "20px",
-              fontSize: "36px",
+              fontSize: "48px",
+              fontWeight: "bold",
             },
           }}
         >
           A better way to productize
         </Typography>
         <Typography
-          variant="h1"
           sx={{
-            fontWeight: "bold",
-            fontSize: "40px",
+            fontWeight: "600",
+            fontSize: "30px",
             textAlign: "center",
             "@media (min-width: 768px)": {
               py: "5px",
               mb: "20px",
-              fontSize: "36px",
+              fontSize: "48px",
+              fontWeight: "bold",
             },
           }}
         >
@@ -74,14 +74,21 @@ function Home() {
         <Typography
           variant="body"
           sx={{
-            font: "semi-bold, 24px",
+            fontWeight: "semi-bold",
+            fontSize: "20px",
             textAlign: "center",
             mt: "20px",
             py: "10px",
           }}
         >
           The premier digital marketplace
-          <span style={{ textDecoration: "underline", paddingLeft: "6px" }}>
+          <span
+            style={{
+              textDecoration: "underline",
+              paddingLeft: "6px",
+              fontWeight: "600",
+            }}
+          >
             exclusively for work and job-based content.
           </span>
         </Typography>
