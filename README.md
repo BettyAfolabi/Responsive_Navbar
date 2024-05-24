@@ -1,6 +1,6 @@
 # React App Responsive Navigation with Vanilla CSS
 
-This template provides a minimal setup to get a responsive navbar working in a react app.
+This template provides a comprehensive setup to get a responsive navbar working in a react app.
 
 ## Built With:
 
