@@ -11,7 +11,7 @@ function NavBar() {
       <nav className="bg-white drop-shadow-sm flex justify-between px-5 font-semibold py-4 top-0 sticky ">
         <div className="flex gap-1">
           <i className="bx bx-md bxs-color text-blue-500"></i>
-          <h1 className="text-blue-500 text-2xl text-pretty">Organizely</h1>
+          <h1 className="text-blue-500 text-2xl text-pretty">rganizely</h1>
         </div>
 
         <div className="hidden lg:flex cursor-pointer gap-4 justify-between">
