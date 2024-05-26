@@ -13,7 +13,7 @@ function NavBar() {
       <nav>
         <div className="logo">
           <i className="bx bx-md bxs-color"></i>
-          <h2>Organizely</h2>
+          <h2>rganizely</h2>
         </div>
 
         {/* Mobile navigation*/}

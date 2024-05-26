@@ -44,7 +44,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 6px;
+  gap: 1px;
   color: var(--primaryColor);
   font-size: 20px;
 }
