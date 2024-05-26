@@ -35,9 +35,9 @@ function NavBar() {
             color: "#3b82f6",
           }}
         >
-          <Stack direction="row" spacing={2}>
+          <Stack direction="row" spacing={1}>
             <i className="bx bx-md bxs-color" sx={{ color: "#3b82f6" }}></i>
-            <Typography sx={{ fontSize: "24px" }}>Organizely</Typography>
+            <Typography sx={{ fontSize: "24px" }}>rganizely</Typography>
           </Stack>
 
           {/* Mobile Navbar */}
